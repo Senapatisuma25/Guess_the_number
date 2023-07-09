@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,200&family=Kablammo&display=swap'); 
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color:rgb(57, 57, 57);
+     font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40%;
+    padding: 30px ;
+    border-radius: 12px;
+    text-align: center;
+    background-color:white
+}
+.wrapper header{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.wrapper p{
+    color: rgb(75, 74, 74);
+}
+.wrapper .input_field{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+.input_field input,.input_field button{
+ height: 50px;
+  width: 30%; 
+ outline: none;
+ padding: 0 20px;
+  border-radius: 10px;  
+}
+.input_field input{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(57, 57, 57);
+    border: 1px solid #aaa;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  display: none;
+}
+.input-field input:disabled {
+  cursor: not-allowed;
+}
+.input_field button{
+    background-color: rgb(57, 57, 57);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid ; 
+    transform: 0.3s;
+}
+.input_field button:active {
+    transform: scale(0.90);
+}
+

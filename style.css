@@ -12,8 +12,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-     background-color:rgb(57, 57, 57);
-     font-family: 'Poppins', sans-serif;
+    background-image: url(a.png) ;
+    background-repeat: none;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 .wrapper{
     display: flex;
